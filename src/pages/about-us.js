@@ -82,7 +82,7 @@ const AboutPage = ({ data }) => {
           Our Organizaton
         </span>
         <span class="tagline">
-          TeamsCode's mission, goals, and team
+          TeamsCode's mission, goals, and team.
         </span>
       </h1>
     </div>

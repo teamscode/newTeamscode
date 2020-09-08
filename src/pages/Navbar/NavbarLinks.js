@@ -22,13 +22,13 @@ const NavItem = styled(Link)`
     width: 0%;
     content: ".";
     color: transparent;
-    background: goldenrod;
+    background: #15CDCA;
     height: 1px;
     transition: all 0.4s ease-in;
   }
 
   :hover {
-    color: goldenrod;
+    color: #15CDCA;
     ::after {
       width: 100%;
     }
@@ -50,6 +50,7 @@ const NavbarLinks = () => {
       <NavItem to="/blog">Blog</NavItem>
       <NavItem to="/contact">Contact</NavItem>
       <NavItem to="/about-us">About Us</NavItem>
+      <NavItem to="/sponsors">Sponsors</NavItem>
     </>
   )
 }
