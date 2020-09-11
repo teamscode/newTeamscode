@@ -106,7 +106,7 @@ const AboutPage = ({ data }) => {
     
   </div>
   <div class="ui vertical stripe intro segment">
-    <div class="relaxed center ui container">
+    <div class=" relaxed center ui container">
       <h1>Our Team</h1>
       <h2><u>Leadership</u></h2>
       <div class="ui two cards">
@@ -291,6 +291,17 @@ const AboutPage = ({ data }) => {
 
 
     </div>
+    <div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+      <div class="ui horizontal  small link list">
+        <a class="ui massive black icon button" href="https://instagram.com/teamscode"><i class="instagram icon" /></a>
+        <a class="ui massive black icon button" href="https://discord.gg/8pg89SS"><i class="discord icon" /></a>
+        <a class="ui massive black icon button" href="https://www.facebook.com/teamscode"><i class="facebook icon" /></a>
+        <a class="ui massive black icon button" href="https://github.com/teamscode"><i class="github icon" /></a>
+        <a class="ui massive black icon button" href="https://twitter.com/TeamsCode"><i class="twitter icon" /></a>
+      </div>
+    </div>
+  </div>
   </div>
     )} 
   />

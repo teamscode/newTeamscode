@@ -46,11 +46,11 @@ const NavbarLinks = () => {
     <>
       <NavItem to="/learn">Learn</NavItem>
       <NavItem to="/contests">Contests</NavItem>
-      <NavItem to="/press">Press</NavItem>
-      <NavItem to="/blog">Blog</NavItem>
-      <NavItem to="/contact">Contact</NavItem>
-      <NavItem to="/about-us">About Us</NavItem>
+      <NavItem to="/community">Community</NavItem>
       <NavItem to="/sponsors">Sponsors</NavItem>
+      <NavItem to="/about-us">About Us</NavItem>
+      <NavItem to="/contact">Contact</NavItem>
+      
     </>
   )
 }
