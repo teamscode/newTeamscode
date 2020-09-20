@@ -92,6 +92,7 @@ exports.onCreateWebpackConfig = ({
       alias: {
         "@components": path.join(__dirname, "./src/components"),
         "@images": path.join(__dirname, "./src/images"),
+        "@docs": path.join(__dirname, "./src/docs"),
         "@tools": path.join(__dirname, "./src/tools"),
         "@templates": path.join(__dirname, "./src/templates"),
       },
@@ -105,6 +106,12 @@ exports.onCreateWebpackConfig = ({
           test: /\.(html)$/,
           use: {
             loader: "html-loader",
+          },
+        },
+        {
+          test: /\.(zip|pdf)$/,
+          use: {
+            loader: "file-loader",
           },
         },
       ],

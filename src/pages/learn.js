@@ -98,7 +98,7 @@ const LearnPage = ({ data }) => {
         <div class="column">
             <h1 align="left">AP Computer Science A</h1>
             <p align="left">In this course, readers will be taught the fundamentals of computer science in Java in order to prepare for the AP Computer Science A exam that takes place every year in May.</p>
-        <a class = "ui big blue button" href="/">View</a>
+        <a class = "ui big blue disabled button" href="/">View</a>
         </div>
     </div>
     <div class="row">
@@ -108,7 +108,7 @@ const LearnPage = ({ data }) => {
         <div class="column">
             <h1 align="left">Programming Practice</h1>
             <p align="left">Explore a collection of 75 programming challenges from previous TeamsCode programming contests!</p>
-        <a class = "ui big blue button" href="/">View</a>
+        <a class = "ui big blue disabled button" href="/">View</a>
         </div>
     </div>
     <div class="row">
@@ -118,7 +118,7 @@ const LearnPage = ({ data }) => {
         <div class="column">
             <h1 align="left">USACO Problems</h1>
             <p align="left">Learn how to approach competitive programming problems by reading through these writeups on how to solve select USACO problems.</p>
-        <a class = "ui big blue button" href="/">View</a>
+        <a class = "ui big blue disabled button" href="/">View</a>
         </div>
     </div>
     <div class="row">
@@ -128,7 +128,7 @@ const LearnPage = ({ data }) => {
         <div class="column">
             <h1 align="left"> iOS with Swift</h1>
             <p align="left">Learn how to program using the Swift programming language and develop apps for the iOS App Store.</p>
-        <a class = "ui big blue button" href="/">View</a>
+        <a class = "ui big blue disabled button" href="/">View</a>
         </div>
     </div>
     

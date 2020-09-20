@@ -99,6 +99,7 @@ const Navbar = () => {
 
   return (
     <Navigation>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
       <a href="/"><div class="ui inverted small header">
       <img src={SUILogo} alt="Semantic UI icon logo" />
     </div></a>

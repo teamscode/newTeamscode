@@ -98,7 +98,7 @@ const IndexPage = ({ data }) => {
       
       <div class="ui hidden divider"></div>
       
-      <a href="/introduction/getting-started" class="ui huge inverted download button">
+      <a href="/contests" class="ui huge inverted download button">
         Browse Contests
       </a>
     </div>

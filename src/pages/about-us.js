@@ -21,6 +21,15 @@ import WilliamIMG from "@images/avatars/william.jpg"
 import VictorIMG from "@images/avatars/victor.jpg"
 import LucaIMG from "@images/avatars/luca.jpg"
 import BillIMG from "@images/avatars/bill.jpg"
+import RachelIMG from "@images/avatars/rachel.jpg"
+import AayushIMG from "@images/avatars/aayush.jpeg"
+import AlbertIMG from "@images/avatars/albert.jpeg"
+import AlexDIMG from "@images/avatars/alexD.jpg"
+import EthanIMG from "@images/avatars/ethan.jpg"
+import JayIMG from "@images/avatars/jay.jpg"
+import StevenIMG from "@images/avatars/steven.jpg"
+import HarryIMG from "@images/avatars/harry.jpg"
+
 import AboutIMG from "@images/avatars/about_team_header_image.jpg"
 const AboutPage = ({ data }) => {
   const title = "About Us"
@@ -114,12 +123,13 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={SeanImg} />
         </div>
-          <div class="content"><a class="header">Sean Yang</a>
+          <div class="content"><div class="header">Sean Yang</div>
           <div class="meta">
             <span class="date">Co-President</span>
           </div>
           <div class="description">
-          Sean is a senior at Monta Vista High School. Though he first began learning Java and Python in 3rd grade, he didn't get into competitive programming until high school. His academic interests include math, physics, and computer science. Outside of school, his hobbies include swimming, running, biking, and photography.
+          <small>Sean is a senior at Monta Vista High School. Though he first began learning Java and Python in 3rd grade, he didn't get into competitive programming until high school. His academic interests include math, physics, and computer science. Outside of school, his hobbies include swimming, running, biking, and photography.
+          </small>
           </div>
           </div>
       </div>
@@ -127,12 +137,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={RyanImg} />
         </div>
-          <div class="content"><a class="header">Ryan Hsu</a>
+          <div class="content"><div class="header">Ryan Hsu</div>
           <div class="meta">
             <span class="date">Co-President</span>
           </div>
           <div class="description">
+            <small>
           Ryan is a senior at Mercer Island High School. He has learned both Java and Python starting in sophomore year. His academic interests include economics and history. In his freetime, he enjoys investing in stocks, building computers, and playing baseball.
+          </small>
           </div>
           </div>
       </div>
@@ -142,12 +154,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={ConnerImg} />
         </div>
-          <div class="content"><a class="header">Conner Yin</a>
+          <div class="content"><div class="header">Conner Yin</div>
           <div class="meta">
             <span class="date">Vice President</span>
           </div>
           <div class="description">
+            <small>
           Conner Yin is a senior at Monta Vista High School. He is passionate about programming, but also loves the logistics and marketing side of planning contests. Outside of TeamsCode, he enjoys indulging in 3 AM cup noodles and playing board and card games with his friends, as well as composing songs and producing music videos for his youtube channel.
+            </small>
           </div>
           </div>
       </div>
@@ -155,12 +169,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={WinbertImg} />
         </div>
-          <div class="content"><a class="header">Winbert Zhang</a>
+          <div class="content"><div class="header">Winbert Zhang</div>
           <div class="meta">
             <span class="date">Vice President</span>
           </div>
           <div class="description">
+            <small>
           Winbert is a senior at Monta Vista High School. He has a background in competitive programming and web development. Other than computer science, he enjoys studying and teaching physics. Outside of school, he loves volunteering at local community service centers, competing in card game tournaments, and hanging out with friends.
+          </small>
           </div>
           </div>
       </div>
@@ -171,12 +187,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={ChrisIMG} />
         </div>
-          <div class="content"><a class="header">Chris Elliot</a>
+          <div class="content"><div class="header">Chris Elliot</div>
           <div class="meta">
             <span class="date">Co-Founder, Co-President 2017-2019</span>
           </div>
           <div class="description">
+          <small>
           Chris Elliott is a student in the UPenn M&amp;T Program, studying computer science and business. In his free time, he likes to read and play tennis.
+          </small>
           </div>
           </div>
       </div>
@@ -184,12 +202,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={AlanImg} />
         </div>
-          <div class="content"><a class="header">Alan Bi</a>
+          <div class="content"><div class="header">Alan Bi</div>
           <div class="meta">
             <span class="date">Co-Founder, Co-President 2017-2019</span>
           </div>
           <div class="description">
+          <small>
           Alan Bi is a freshman at Duke University studying computer science and statistics. He started programming in ninth grade and has since enjoyed working on a variety of technical projects. Aside from programming, he also enjoys playing table tennis.
+          </small>
           </div>
           </div>
       </div>
@@ -199,12 +219,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={JasonImg} />
         </div>
-          <div class="content"><a class="header">Jason Zhang</a>
+          <div class="content"><div class="header">Jason Zhang</div>
           <div class="meta">
             <span class="date">Co-President 2019-2020</span>
           </div>
           <div class="description">
+          <small>
           Jason Zhang is a freshman at the University of Washington, studying computer science. He also enjoys math, history, and playing guitar.
+          </small>
           </div>
           </div>
       </div>
@@ -212,12 +234,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={AlexImg} />
         </div>
-          <div class="content"><a class="header">Alex Patel</a>
+          <div class="content"><div class="header">Alex Patel</div>
           <div class="meta">
             <span class="date">Co-President 2019-2020</span>
           </div>
           <div class="description">
+          <small>
           Alex Patel is a freshman at Stanford University. He is passionate about both programming and finance, and has led organizations teaching students about both. Outside of school, he enjoys playing tennis, golf, and piano, as well as exploring the stock market.
+          </small>
           </div>
           </div>
       </div>
@@ -229,12 +253,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={WilliamIMG} />
         </div>
-          <div class="content"><a class="header">William Huang</a>
+          <div class="content"><div class="header">William Huang</div>
           <div class="meta">
             <span class="date">Director of Marketing</span>
           </div>
           <div class="description">
+          <small>
           William Huang is a senior at Monta Vista High School in Cupertino, California. He started learning Java in his freshman year of high school, with a focus on creative design. Academically, he is interested in biology and chemistry, partaking in Science Olympiad. Outside of school, he loves painting, photography, singing, and playing Valorant.
+          </small>
           </div>
           </div>
       </div>
@@ -242,12 +268,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={VictorIMG} />
         </div>
-          <div class="content"><a class="header">Victor Du</a>
+          <div class="content"><div class="header">Victor Du</div>
           <div class="meta">
             <span class="date">Director of Technology</span>
           </div>
           <div class="description">
+          <small>
           Victor is a senior at International School in Bellevue. He helps develop software for a variety of causes. In his free time, he enjoys learning about physics, modding video games, and reading alternate history fiction.
+          </small>
           </div>
           </div>
       </div>
@@ -257,12 +285,14 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={LucaIMG} />
         </div>
-          <div class="content"><a class="header">Luca Palermo</a>
+          <div class="content"><div class="header">Luca Palermo</div>
           <div class="meta">
             <span class="date">Head of Problem Writing</span>
           </div>
           <div class="description">
+          <small>
           Luca Palermo is a junior at Mercer Island High School in Washington. He started his passion for programming in third grade with Python and Java. Outside of school, he spends most of his time working as a lead cross-platform app developer for a local startup company but also enjoys playing piano and spending time with friends.
+          </small>
           </div>
           </div>
       </div>
@@ -270,12 +300,139 @@ const AboutPage = ({ data }) => {
         <div class="image">
         <img src={BillIMG} />
         </div>
-          <div class="content"><a class="header">Bill Wang</a>
+          <div class="content"><div class="header">Bill Wang</div>
           <div class="meta">
             <span class="date">Head of Finance</span>
           </div>
           <div class="description">
+          <small>
           Bill is a senior at Mercer Island High School. He first began learning Java in his sophomore year of high school. At school, he enjoys economics, psychology, and mock trial. In his free time, he likes to play the piano, hang out with friends, and play soccer.
+          </small>
+          </div>
+          </div>
+      </div>
+      </div>
+      <h2><u>Organizers</u></h2>
+      <div class="ui two cards">
+      <div class = "ui card">
+        <div class="image">
+        <img src={RachelIMG} />
+        </div>
+          <div class="content"><div class="header">Rachel Chan</div>
+          <div class="meta">
+            <span class="date">Logistics Coordinator</span>
+          </div>
+          <div class="description">
+          <small>Rachel is a sophomore at Monta Vista High School in Cupertino, California. She began learning programming two years back and is fluent in both Java and C++. Outside of school, she enjoys reading science fiction and participating in DECA conferences. With her passions in computer science, she’s excited to be a part of TeamsCode.</small>
+          </div>
+          </div>
+      </div>
+      <div class = "ui card">
+        <div class="image">
+        <img src={AayushIMG} />
+        </div>
+          <div class="content"><div class="header">Aayush Sheth</div>
+          <div class="meta">
+            <span class="date">Logistics Coordinator</span>
+          </div>
+          <div class="description">
+            <small>
+            Aayush is a junior at Tesla STEM Highschool in Washington state. He started learning competitive programming four years ago and is well-versed in C++ and Java. Outside of school, he enjoys learning economics, piano, and soccer. Through TeamsCode, he hopes to develop his leadership and coordination skills.
+            </small>
+          </div>
+          </div>
+      </div>
+      </div>
+      <div class="ui two cards">
+      <div class = "ui card">
+        <div class="image">
+        <img src={StevenIMG} />
+        </div>
+          <div class="content"><div class="header">Steven Luo</div>
+          <div class="meta">
+            <span class="date">Logistics Coordinator</span>
+          </div>
+          <div class="description">
+            <small>
+            Steven Luo is a junior at Evergreen Valley High School. He’s taken several programming classes, but started with C++ and Python in his freshman year. In his spare time, he enjoys playing the flute and piano, listening to music, and volunteering for The Evergreen Initiative, a nonprofit organization.
+          </small>
+          </div>
+          </div>
+      </div>
+      <div class = "ui card">
+        <div class="image">
+        <img src={EthanIMG} />
+        </div>
+          <div class="content"><div class="header">Ethan Peng</div>
+          <div class="meta">
+            <span class="date">Logistics Coordinator</span>
+          </div>
+          <div class="description">
+            <small>
+            Ethan is a junior at Los Altos High School. He started learning programming two years ago, and competitive programming one year ago. He is excited to help bring quality contests to computer science students. Outside of programming, he plays tennis and watches Chinese dramas.
+            </small>
+          </div>
+          </div>
+      </div>
+      </div>
+      <div class="ui two cards">
+      <div class = "ui card">
+        <div class="image">
+        <img src={AlbertIMG} />
+        </div>
+          <div class="content"><div class="header">Albert Huang</div>
+          <div class="meta">
+            <span class="date">Problem Writer</span>
+          </div>
+          <div class="description">
+          <small>Albert is a sophomore at the Nueva School who is interested in creating and applying algorithms to problems in the community. To him, TeamsCode is the way to get more people interested in the thought process behind solving problems. He’s hoping to inspire others to apply technology to change the world.
+          </small>
+          </div>
+          </div>
+      </div>
+      <div class = "ui card">
+        <div class="image">
+        <img src={AlexDIMG} />
+        </div>
+          <div class="content"><div class="header">Alex Du</div>
+          <div class="meta">
+            <span class="date">Problem Writer</span>
+          </div>
+          <div class="description">
+            <small>
+            Alex is a freshman at Cupertino High School in California. He started competitive programming in C++ three years ago. Outside of programming, he does math, plays volleyball, and enjoys spending time with friends. He’s working to get more people into the world of competitive coding.
+            </small>
+          </div>
+          </div>
+      </div>
+      </div>
+      <div class="ui two cards">
+      <div class = "ui card">
+        <div class="image">
+        <img src={JayIMG} />
+        </div>
+          <div class="content"><div class="header">Jay Dharmadhikari</div>
+          <div class="meta">
+            <span class="date">Marketing Coordinator</span>
+          </div>
+          <div class="description">
+            <small>
+            Jay Dharmadhikari is a junior at Redmond High School in Redmond, WA. He has been interested in computer science, coding, and competitive programming since middle school. Outside of CS, he enjoys graphic design and music production.</small>
+          </div>
+          </div>
+      </div>
+      <div class = "ui card">
+        <div class="image">
+        <img src={HarryIMG} />
+        </div>
+          <div class="content"><div class="header">Harry Chen</div>
+          <div class="meta">
+            <span class="date">Vice President</span>
+          </div>
+          <div class="description">
+            <small>
+            Harry is a freshman at Lynbrook High School in San Jose, California. He began to learn programming in 6th grade and started his competition career in the 7th. Harry has helped a start-up company to build Websites and to manage IT Infrastructures. In his free time, he likes to play tennis and hang out with friends.
+            </small>
           </div>
           </div>
       </div>
