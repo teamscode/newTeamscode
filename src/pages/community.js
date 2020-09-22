@@ -100,11 +100,9 @@ const ContestsPage = ({ data }) => {
     
     <div class="row">
       <div class="column">
-      <h1>Making programming fun.</h1>
-        <p>We understand that learning programming can be tedious. We give students valuable programming practice and team-building skills by organizing awesome programming contests. Snacks, pizza, medals, and prizes are always available!</p>
-        <h2>Upcoming Contests</h2>
-        <p>No upcoming contests, please check back later!</p>
-        <h2>Past Contests</h2>
+      <h1>View our blog posts and press articles here.</h1>
+        <h2><a href="https://drive.google.com/open?id=1a4UKakV8_kSjKW_L6x-1Tj0PHRcugei9">Contest Photos</a></h2>
+
 
       </div> 
       

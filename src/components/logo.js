@@ -1,5 +1,5 @@
 import React from "react"
-import SUILogo from "../images/logo.png"
+import SUILogo from "../images/gatsby-icon.png"
 
 export default function Logo({ siteTitle }) {
   return (

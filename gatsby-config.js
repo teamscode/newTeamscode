@@ -5,101 +5,253 @@ module.exports = {
     author: `@teamscode`,
     cssidebar: {
       pages: [
+
         {
-          slug: "/getting-started",
-          title: "Jay Started",
-        },
-        {
-          slug: "/guidelines/overview",
-          title: "Guidelines",
+          slug: "/ap-computer-science/what-is-programming/",
+          title: "Basics of Computing",
           pages: [
             {
-              slug: "/guidelines/overview",
-              title: "Overview",
+              slug: "/ap-computer-science/what-is-programming/",
+              title: "What is Programming?",
             },
             {
-              slug: "/guidelines/design-principles",
-              title: "Design Principles",
+              slug: "/ap-computer-science/programming-languages/",
+              title: "Programming Languages",
+            },
+            {
+              slug: "/ap-computer-science/binary/",
+              title: "Binary",
+            },
+            {
+              slug: "/ap-computer-science/more-number-bases/",
+              title: "More Number Bases",
             },
           ],
         },
         {
-          slug: "/styles/overview",
-          title: "Styles",
+          slug: "/ap-computer-science/hello-world/",
+          title: "Programming in Java",
           pages: [
             {
-              slug: "/styles/overview",
-              title: "Overview",
+              slug: "/ap-computer-science/hello-world/",
+              title: "Hello World",
             },
             {
-              slug: "/styles/design-tokens",
-              title: "Design tokens",
+              slug: "/ap-computer-science/primtive-variables/",
+              title: "Primtive Variables",
             },
             {
-              slug: "/styles/color",
-              title: "Color",
-            },
-            {
-              slug: "/styles/typography",
-              title: "Typography",
-            },
-            {
-              slug: "/styles/iconography",
-              title: "Iconography",
-            },
-            // For Design Systems:
-            // {
-            //   slug: "/styles/imagery",
-            //   title: "Imagery",
-            // },
-            // {
-            //   slug: "/styles/motion",
-            //   title: "Motion",
-            // },
-            // {
-            //   slug: "/styles/voice-and-tone",
-            //   title: "Voice and tone",
-            // },
-          ],
-        },
-        {
-          slug: "/components/button",
-          title: "Components",
-          pages: [
-            {
-              slug: "/components/button",
-              title: "Button",
-            },
-            {
-              slug: "/components/container",
-              title: "Container",
-            },
-            {
-              slug: "/components/card",
-              title: "Card",
-            },
-            {
-              slug: "/components/divider",
-              title: "Divider",
-            },
-            {
-              slug: "/components/input",
-              title: "Input",
-            },
-            {
-              slug: "/components/grid",
-              title: "Grid",
-            },
-            {
-              slug: "/components/list",
-              title: "List",
+              slug: "/ap-computer-science/advanced-varibles/",
+              title: "Advanced Variables",
             },
           ],
         },
         {
-          slug: "/support",
-          title: "Support",
+          slug: "/ap-computer-science/assignment-operators/",
+          title: "Operators",
+          pages: [
+            {
+              slug: "/ap-computer-science/assignment-operators/",
+              title: "Assignment Operators",
+            },
+            {
+              slug: "/ap-computer-science/arithmetic-operators/",
+              title: "What is Programming?",
+            },
+            {
+              slug: "/ap-computer-science/relational-operators/",
+              title: "Programming Languages",
+            },
+            {
+              slug: "/ap-computer-science/logical-operators/",
+              title: "Binary",
+            },
+            {
+              slug: "/ap-computer-science/operator-precedence/",
+              title: "More Number Bases",
+            },
+          ],
         },
+        {
+          slug: "/ap-computer-science/if-statements/",
+          title: "Loops and Conditionals",
+          pages: [
+            {
+              slug: "/ap-computer-science/if-statements/",
+              title: "If Statements",
+            },
+            {
+              slug: "/ap-computer-science/arithmetic-operators/",
+              title: "For Loops",
+            },
+            {
+              slug: "/ap-computer-science/relational-operators/",
+              title: "Advanced For Loops",
+            },
+            {
+              slug: "/ap-computer-science/logical-operators/",
+              title: "While Loops",
+            },
+            {
+              slug: "/ap-computer-science/operator-precedence/",
+              title: "Overview Lesson #1",
+            },
+          ],
+        },
+        {
+          slug: "/ap-computer-science/hello-world/",
+          title: "Math/Scanner Classes",
+          pages: [
+            {
+              slug: "/ap-computer-science/hello-world/",
+              title: "Hello World",
+            },
+            {
+              slug: "/ap-computer-science/primitive-variables/",
+              title: "Primtive Variables",
+            },
+            {
+              slug: "/ap-computer-science/advanced-varibles/",
+              title: "Advanced Variables",
+            },
+          ],
+        },
+
+        {
+          slug: "/ap-computer-science/arrays/",
+          title: "Advanced Expressions",
+          pages: [
+            {
+              slug: "/ap-computer-science/arrays/",
+              title: "Arrays",
+            },
+            {
+              slug: "/ap-computer-science/foreach-loops/",
+              title: "Foreach Loops",
+            },
+            {
+              slug: "/ap-computer-science/errors-exceptions/",
+              title: "Errors/Exceptions",
+            },
+            {
+              slug: "/ap-computer-science/methods/",
+              title: "Methods",
+            },
+            {
+              slug: "/ap-computer-science/advanced-methods/",
+              title: "Advanced Methods",
+            },
+          ],
+        },
+
+        {
+          slug: "/ap-computer-science/classes/",
+          title: "Introduction to Classes",
+          pages: [
+            {
+              slug: "/ap-computer-science/classes/",
+              title: "Classes",
+            },
+            {
+              slug: "/ap-computer-science/using-multiple-classes/",
+              title: "Using Multiple Classes",
+            },
+            {
+              slug: "/ap-computer-science/fields/",
+              title: "Fields",
+            },
+            {
+              slug: "/ap-computer-science/method-types/",
+              title: "Method Types",
+            },
+
+          ],
+        },
+
+        {
+          slug: "/ap-computer-science/objects/",
+          title: "Object-Oriented Java",
+          pages: [
+            {
+              slug: "/ap-computer-science/objects/",
+              title: "Objects",
+            },
+            {
+              slug: "/ap-computer-science/object-oriented-programming/",
+              title: "Object Oriented Programming",
+            },
+            {
+              slug: "/ap-computer-science/inheritance/",
+              title: "Inheritance",
+            },
+            {
+              slug: "/ap-computer-science/inheritance-principles/",
+              title: "Inheritance Principles",
+            },
+
+          ],
+        },
+
+        {
+          slug: "/ap-computer-science/abstract-classes/",
+          title: "Classes/Interfaces",
+          pages: [
+            {
+              slug: "/ap-computer-science/abstract-classes/",
+              title: "Abstract Classes",
+            },
+            {
+              slug: "/ap-computer-science/interfaces/",
+              title: "Interfaces",
+            },
+            {
+              slug: "/ap-computer-science/polymorphism/",
+              title: "Polymorphism",
+            },
+          ],
+        },
+        {
+          slug: "/ap-computer-science/lists-and-arraylists/",
+          title: "Techniques in Java",
+          pages: [
+            {
+              slug: "/ap-computer-science/lists-and-arraylists/",
+              title: "Lists and Arraylists",
+            },
+            {
+              slug: "/ap-computer-science/recursion/",
+              title: "Recursion",
+            },
+
+          ],
+        },
+        {
+          slug: "/ap-computer-science/sorting-and-searching/",
+          title: "Sorting and Searching",
+          pages: [
+            {
+              slug: "/ap-computer-science/sorting-and-searching/",
+              title: "Sorting and Searching",
+            },
+            {
+              slug: "/ap-computer-science/sorting-methods/",
+              title: "Sorting Methods",
+            },
+            {
+              slug: "/ap-computer-science/searching-methods/",
+              title: "Searching Methods",
+            },
+            {
+              slug: "/ap-computer-science/mergesort/",
+              title: "Mergesort",
+            },
+            {
+              slug: "/ap-computer-science/quicksort/",
+              title: "Quicksort",
+            },
+          ],
+        },
+        
       ],
     },
     sidebar: {

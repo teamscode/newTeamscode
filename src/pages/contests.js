@@ -136,7 +136,7 @@ const ContestsPage = ({ data }) => {
           <div class="column">
         <div class="ui cards">
           <a class = "ui fluid card" href="/contests/spring-2019-bellevue-programming-contest">
-          <div class="content"><div class="header">Spring 2019 Belleve High School Prgramming Contest</div>
+          <div class="content"><div class="header">Spring 2019 Belleve High School Programming Contest</div>
             <div class="meta">
                 <span class="date"><em>Co-Host: Smart Coding School</em><br /></span>
                 <span class="date"><b>Bellevue, WA</b><br /></span>

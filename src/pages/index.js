@@ -144,7 +144,7 @@ const IndexPage = ({ data }) => {
       <div class="ui stackable center aligned vertically padded grid">
         <div class="eight wide column">
           <p>We help interested high schoolers organize their own programming events - contests, hackathons, and bootcamps. Please complete this form if you're interested!</p>
-          <a class="ui large blue button" href="/create-a-contest">
+          <a class="ui large blue button" href="/apply">
             Learn More
           </a>
         </div>

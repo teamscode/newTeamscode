@@ -56,7 +56,7 @@
     "build": "gatsby build",
     "clean": "rm -rf .cache && npm run develop",
     "develop": "nodemon --exec \"gatsby develop\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -b origin/master -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -b origin/build -d public",
     "debug": "nodemon --exec \"node --inspect-brk --no-lazy node_modules/.bin/gatsby develop\"",
     "format": "prettier --write 'src/**/*.js'",
     "lint": "eslint . --ext ts --ext tsx",
