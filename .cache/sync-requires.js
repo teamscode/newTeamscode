@@ -6,6 +6,7 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---src-templates-posts-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/templates/posts.js"))),
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/404.js"))),
   "component---src-pages-about-us-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/about-us.js"))),
   "component---src-pages-ap-computer-science-programming-languages-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/ap-computer-science/programming-languages.js"))),
@@ -50,6 +51,7 @@ exports.components = {
   "component---src-pages-styles-design-tokens-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/design-tokens.js"))),
   "component---src-pages-styles-iconography-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/iconography.js"))),
   "component---src-pages-styles-overview-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/overview.js"))),
-  "component---src-pages-styles-typography-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/typography.js")))
+  "component---src-pages-styles-typography-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/typography.js"))),
+  "component---src-pages-contests-fall-2020-virtual-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/fall-2020-virtual-programming-contest.js")))
 }
 

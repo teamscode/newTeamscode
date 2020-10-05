@@ -29,6 +29,7 @@ import EthanIMG from "@images/avatars/ethan.jpg"
 import JayIMG from "@images/avatars/jay.jpg"
 import StevenIMG from "@images/avatars/steven.jpg"
 import HarryIMG from "@images/avatars/harry.jpg"
+import HelenIMG from "@images/avatars/helen.jpg"
 
 import AboutIMG from "@images/avatars/about_team_header_image.jpg"
 const AboutPage = ({ data }) => {
@@ -427,7 +428,7 @@ const AboutPage = ({ data }) => {
         </div>
           <div class="content"><div class="header">Harry Chen</div>
           <div class="meta">
-            <span class="date">Vice President</span>
+            <span class="date">Back-End Developer</span>
           </div>
           <div class="description">
             <small>
@@ -437,8 +438,28 @@ const AboutPage = ({ data }) => {
           </div>
       </div>
       </div>
+
+      <div class="ui two cards">
+      <div class = "ui card">
+        <div class="image">
+        <img src={HelenIMG} />
+        </div>
+          <div class="content"><div class="header">Helen Feng</div>
+          <div class="meta">
+            <span class="date">Logistics Coordinator</span>
+          </div>
+          <div class="description">
+          <small>Helen Feng is a junior at Evergreen Valley High School and is particularly interested in computer science and software development. With passion for using the creative process to make things become reality, Helen began programming in middle school. Outside of school, she enjoys making Discord bots, drawing, playing badminton, playing games, and solving real world problems with the power of technology under the New York Academy of Sciences. 
+          </small>
+          </div>
+          </div>
+      </div>
+      
+      </div>
     </div>
+    <br /><br />
   </div>
+  
 </div>
 
 

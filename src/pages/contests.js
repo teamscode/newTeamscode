@@ -100,6 +100,15 @@ const ContestsPage = ({ data }) => {
       <div class="row">
           <div class="column">
         <div class="ui cards">
+        <a class = "ui fluid card" href="/contests/fall-2020-virtual-programming-contest">
+          <div class="content"><div class="header">Fall 2020 Online Contest</div>
+            <div class="meta">
+                <span class="date"><b>Youtube Live</b><br /></span>
+                <span class="meta">November 21st, 2020<br /></span>
+                <span class="meta">Registration Open</span>
+            </div>
+            </div>
+            </a>
           <a class = "ui fluid card" href="/contests/summer-2020-virtual-programming-contest">
           <div class="content"><div class="header">Summer 2020 Online Contest</div>
             <div class="meta">
