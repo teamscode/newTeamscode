@@ -6,7 +6,6 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---src-templates-posts-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/templates/posts.js"))),
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/404.js"))),
   "component---src-pages-about-us-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/about-us.js"))),
   "component---src-pages-ap-computer-science-programming-languages-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/ap-computer-science/programming-languages.js"))),

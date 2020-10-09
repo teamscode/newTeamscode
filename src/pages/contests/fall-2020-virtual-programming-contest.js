@@ -122,7 +122,7 @@ const ApplyPage = ({ data }) => {
   </div>
   <div class="ui container">
       <h1>Basic Information</h1>
-      <h3>View detailed logistics about the contest in<a href={LogisticsPDF} download> our logistics document</a>.</h3>
+      <h3>View detailed logistics about the contest in<a href={LogisticsPDF} download="teamscode"> our logistics document</a>.</h3>
       <p><b>Time: </b>1:00 - 5:00 PM</p>
       <p><b>Team Sizes: </b>1-4 people per team.</p>
       <p><b>Cost: </b>Free</p>

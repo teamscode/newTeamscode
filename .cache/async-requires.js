@@ -3,7 +3,6 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---src-templates-posts-js": () => import("/Users/JayD/Downloads/GitHub/newTeamscode/src/templates/posts.js" /* webpackChunkName: "component---src-templates-posts-js" */),
-  "component---cache-dev-404-page-js": () => import("/Users/JayD/Downloads/GitHub/newTeamscode/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-us-js": () => import("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/about-us.js" /* webpackChunkName: "component---src-pages-about-us-js" */),
   "component---src-pages-ap-computer-science-programming-languages-js": () => import("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/ap-computer-science/programming-languages.js" /* webpackChunkName: "component---src-pages-ap-computer-science-programming-languages-js" */),
