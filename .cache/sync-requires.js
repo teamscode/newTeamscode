@@ -31,6 +31,7 @@ exports.components = {
   "component---src-pages-contests-fall-2018-mihs-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/fall-2018-mihs-programming-contest.js"))),
   "component---src-pages-contests-fall-2019-mihs-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/fall-2019-mihs-programming-contest.js"))),
   "component---src-pages-contests-fall-2019-silicon-valley-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/fall-2019-silicon-valley-programming-contest.js"))),
+  "component---src-pages-contests-fall-2020-virtual-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/fall-2020-virtual-programming-contest.js"))),
   "component---src-pages-contests-spring-2017-mihs-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/spring-2017-mihs-programming-contest.js"))),
   "component---src-pages-contests-spring-2018-cgs-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/spring-2018-cgs-programming-contest.js"))),
   "component---src-pages-contests-spring-2018-mihs-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/spring-2018-mihs-programming-contest.js"))),
@@ -51,7 +52,6 @@ exports.components = {
   "component---src-pages-styles-design-tokens-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/design-tokens.js"))),
   "component---src-pages-styles-iconography-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/iconography.js"))),
   "component---src-pages-styles-overview-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/overview.js"))),
-  "component---src-pages-styles-typography-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/typography.js"))),
-  "component---src-pages-contests-fall-2020-virtual-programming-contest-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/contests/fall-2020-virtual-programming-contest.js")))
+  "component---src-pages-styles-typography-js": hot(preferDefault(require("/Users/JayD/Downloads/GitHub/newTeamscode/src/pages/styles/typography.js")))
 }
 

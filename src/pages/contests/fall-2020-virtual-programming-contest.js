@@ -38,6 +38,7 @@ import T4KIMG from "@images/sponsor_images/sponsor_t4k.png"
 import TopcoderIMG from "@images/sponsor_images/sponsor_topcoder.png"
 import XCampIMG from "@images/sponsor_images/sponsor_x-camp2.png"
 import Doc1 from "@docs/TC_CasesSols_Combined.zip"
+import LogisticsPDF from "@docs/TeamsCode-Fall-2020-Logistics.zip"
 
 const ApplyPage = ({ data }) => {
   const title = "Contests"
@@ -121,7 +122,7 @@ const ApplyPage = ({ data }) => {
   </div>
   <div class="ui container">
       <h1>Basic Information</h1>
-      <h3>View detailed logistics about the contest in<a href="https://youtu.be/NlON2lil0CI"> our Youtube video</a>.</h3>
+      <h3>View detailed logistics about the contest in<a href={LogisticsPDF} download> our logistics document</a>.</h3>
       <p><b>Time: </b>1:00 - 5:00 PM</p>
       <p><b>Team Sizes: </b>1-4 people per team.</p>
       <p><b>Cost: </b>Free</p>
