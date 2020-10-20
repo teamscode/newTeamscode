@@ -102,9 +102,7 @@ const ContactPage = ({ data }) => {
             <p align="left">Interested in helping us host contests? Click <a href="/apply">here</a> for more information on what it takes!<br /></p>
             <h1 align="left"><br />Volunteer to Judge</h1>
             <p align="left">Interested in volunteering for an event? Contact us at <a href="mailto:judging@teamscode.com">judging@teamscode.com</a>.</p>
-            <h1 align="left"><br />Mailing List</h1>
-            <p align="left">Want to get updates on new programming contests, courses, or other opportunities? Sign up to the mailing list <a href="https://teamscode.us16.list-manage.com/subscribe/post?u=68ebd958a395d94f3d7ad5ada&amp;id=1b008420c1">here</a>!</p>
-            <MailchimpSubscribe url={MailURL}/>
+            
             
         </div>
     </div>

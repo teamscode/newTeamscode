@@ -191,7 +191,7 @@ const ApplyPage = ({ data }) => {
       <Image size="medium" src={DigiPenIMG} /><br />
       <p><b>About <u>DigiPen</u>:</b></p>
       <p>Since 1988, DigiPen Institute of Technology has been preparing students to succeed as skilled engineers, artists, and designers in the growing technology industries. An educational pioneer, we were the first college in the world to offer a bachelor’s degree in video game technology and development. Today, we offer a wide range of technology-focused programs, all with an eye toward the career opportunities of tomorrow. Through a combination of academic rigor and interdisciplinary team-based projects, our educational model empowers students to be active learners, bold problem-solvers, and creators. Our programs are intentionally designed to reflect the standards and practices of the professional industries: Small teams with different backgrounds and skills collaborate to apply their knowledge, overcome challenges, and build amazing things together. These teams form the core of our tight-knit student and alumni community.</p>
-      <p><b>Additional Sponsor:</b> <a href="https://x-camp.academy/">CodeWizards HQ</a></p>
+      <p><b>Additional Sponsor:</b> <a href="https://codewizardshq.com">CodeWizards HQ</a></p>
       <Image size="medium" src={CodeWizardsIMG} /><br />
       <p><b>About <u>CodeWizards HQ</u>:</b></p>
       <p>CodeWizards HQ is the leading online coding school for kids and teens ages 8-18. We deliver the most fun and effective live, online coding classes which are designed to give our students the programming knowledge, skills, and confidence to thrive in a digital world.</p>

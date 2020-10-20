@@ -133,8 +133,8 @@ const ContestsPage = ({ data }) => {
           <div class="content"><div class="header">Fall 2019 Silicon Valley Programming Contest</div>
             <div class="meta">
                 <span class="date"><b>Cupertino, CA</b><br /></span>
-                <span class="meta">July 25th, 2020<br /></span>
-                <span class="meta">296 Students</span>
+                <span class="meta">October 26th, 2019<br /></span>
+                <span class="meta">35 Students</span>
             </div>
             </div>
             </a>
@@ -168,9 +168,9 @@ const ContestsPage = ({ data }) => {
           <div class="content"><div class="header">Spring 2019 MIHS Programming Contest</div>
             <div class="meta">
                 <span class="date"><em>Co-Host: Smart Coding School</em><br /></span>
-                <span class="date">Youtube Live<br /></span>
-                <span class="meta">July 25th, 2020<br /></span>
-                <span class="meta">296 Students</span>
+                <span class="date">Mercer Island High School, WA<br /></span>
+                <span class="meta">March 16th, 2019<br /></span>
+                <span class="meta">142 Students</span>
             </div>
             </div>
             </a>
